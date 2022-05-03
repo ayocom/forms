@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        textarea {
+            background-color: rgb(152, 160, 196);
+            color: rgb(183, 195, 206);
+            font-family: cursive;
+        }
+
+        #button1 {
+            background-color: plum;
+        }
+
+        #button2 {
+            background-color: powderblue;
+        }
+
+        #button3 {
+            background-color: #649F5E;
+        }
+
+        #pretty2 {
+            background-color: #D1F2EB;
+        }
+
+        #pretty3 {
+            background-color: #21618C;
+        }
+
+        #b1 {
+            background-color: white;
+            border: 5px solid #FFBB99;
+        }
+
+        #b2 {
+            background-color: white;
+            border: 5px dotted #669999;
+        }
+
+        #b3 {
+            background-color: white;
+            border: 5px dashed #99CC99;
+        }
+
+        #b4 {
+            background-color: white;
+            border: 15px groove #D77696;
+        }
+
+        #b5 {
+            background-color: white;
+            border: 15px double #769ED7 ;
+        }
+
+        #b6 {
+            background-color: white;
+            border: 15px ridge #F37575 ;
+        }
+
+        #b7 {
+            background-color: white;
+            border: 15px outset #436666 ;
+        }
+
+        #b8 {
+            background-color: white;
+            border: 15px inset #6FA2B5;
+        }
+
+.myBox, .myBox2 {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #FF6666;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #CC6699;  
+}
+    </style>
+
+</head>
+<body>
+
+    <h1>Different Looks for text and textarea boxes</h1>
+    <form action="" method="POST">
+        <h3>Colors</h3>
+        <textarea name="color1" id="pretty1">Put Comments Here</textarea>
+        <textarea name="color1" id="pretty2">Put Comments Here</textarea>
+        <textarea name="color1" id="pretty3">Put Comments Here</textarea> <br>
+
+        <h3>Button Colors</h3>
+        <input type="submit" value="submit" id="button1">
+        <input type="submit" value="submit" id="button2">
+        <input type="submit" value="submit" id="button3"> <br>
+
+        <h3>Borders</h3>
+        <textarea name="color1" id="b1">Put Comments Here</textarea>
+        <textarea name="color1" id="b2">Put Comments Here</textarea>
+        <textarea name="color1" id="b3">Put Comments Here</textarea>
+        <textarea name="color1" id="b4">Put Comments Here</textarea>
+        <textarea name="color1" id="b5">Put Comments Here</textarea>
+        <textarea name="color1" id="b6">Put Comments Here</textarea>
+        <textarea name="color1" id="b7">Put Comments Here</textarea>
+        <textarea name="color1" id="b8">Put Comments Here</textarea> <br>
+        
+    </form>
+
+    <form action="">
+        <label>Your Name</label> <br>
+        <textarea name="color1" id="pretty3">:)</textarea> <br>
+        <br>
+
+        <input type="radio" id="9th" name="ageRange" value="9th"> <label>9th grade</label> <br>
+        <input type="radio" id="10th" name="ageRange" value="10th"> <label>10th grade</label> <br>
+        <input type="radio" id="11th" name="ageRange" value="11th"> <label>11th grade</label> <br>
+        <input type="radio" id="12th" name="ageRange" value="12th"> <label>12th grade</label> <br>
+        <input type="radio" id="out" name="ageRange" value="out"> <label>Outside of High School</label> <br>
+        <br>
+        <label>How can I make this better?</label>
+        <br>
+        <input type="checkbox" id="changeColor" name="improve" value="changeColor"> <label>Change the Colors</label> <br>
+        <input type="checkbox" id="changeTitle" name="improve" value="changeTitle"> <label>Change the Title</label> <br>
+        <input type="checkbox" id="addDetail" name="improve" value="addDetail"> <label>Add more detail</label> <br>
+        <textarea name="color1" id="pretty3">Any Other Comments</textarea> <br>
+        <input type="submit" value="Send" id="button1">
+        
+
+    </form>
+
+    <div class="myBox2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, explicabo illo id voluptas non eos adipisci quasi beatae eaque libero, qui aspernatur dolor commodi, dignissimos laborum nesciunt quia vitae! Nobis!  
+    </div>
+    
+</body>
+</html>
